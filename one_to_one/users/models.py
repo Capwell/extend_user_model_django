@@ -12,7 +12,6 @@ class Profile(models.Model):
     bio = models.TextField(
         'Биография',
         blank=True,
-        null=True,
     )
 
     class Meta:
